@@ -1,0 +1,20 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CabosManuel/ecmascript.git"
+  },
+  "keywords": [],
+  "author": "Manuel Cabos <cabos.apolaya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CabosManuel/ecmascript/issues"
+  },
+  "homepage": "https://github.com/CabosManuel/ecmascript#readme"
+}
