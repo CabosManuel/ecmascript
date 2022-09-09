@@ -44,6 +44,11 @@ console.log(person.firstName, person.age, person.country);
 let {firstName, age, country} = person;
 console.log(firstName, age, country);
 
+// array destructuring
+let fruits = ['Apple', 'Banana']
+let [x, y] = fruits;
+console.log(x, y); // Apple Banana
+
 
 // Spread Operator (Operador de propagación) ------------
 let team1 = ['Manuel', 'Alejandro', 'Oscar'];
