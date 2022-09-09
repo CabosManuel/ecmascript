@@ -48,11 +48,3 @@ console.log(firstName, age, country);
 let fruits = ['Apple', 'Banana']
 let [x, y] = fruits;
 console.log(x, y); // Apple Banana
-
-
-// Spread Operator (Operador de propagación) ------------
-let team1 = ['Manuel', 'Alejandro', 'Oscar'];
-let team2 = ['Valeria', 'Jessica', 'Camila'];
-
-let education = ['David', ...team1, ...team2];
-console.log(education);
