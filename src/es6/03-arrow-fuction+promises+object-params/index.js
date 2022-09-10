@@ -41,17 +41,3 @@ const square = (num) => {
 
 const square = num => num * num;
 console.log(square(12)); // 144
-
-// PROMISES ---------------------------------
-const helloPromise = () => {
-  return new Promise( (resolve, reject) => {
-
-    if(true) resolve('Success!');
-    else reject('Wrong!');
-
-  });
-}
-
-helloPromise()
-  .then(response => console.log(response))
-  .catch(error => console.log(error));
