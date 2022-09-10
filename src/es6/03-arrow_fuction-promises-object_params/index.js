@@ -46,7 +46,7 @@ console.log(square(12)); // 144
 const helloPromise = () => {
   return new Promise( (resolve, reject) => {
 
-    if(true) resolve('Succsess!');
+    if(true) resolve('Success!');
     else reject('Wrong!');
 
   });

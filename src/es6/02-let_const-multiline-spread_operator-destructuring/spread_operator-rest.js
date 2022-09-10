@@ -12,7 +12,7 @@ let country = 'PE'
 let data = {id: 1, ...person, country}
 console.log(data);
 
-// Rest parametes 
+// Rest parameters ----------------------------- 
 function sum(num, ...values) {
   console.log(values);
   console.log(num + values[0]);
