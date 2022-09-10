@@ -2,9 +2,9 @@
 const helloPromise = () => {
   return new Promise( (resolve, reject) => {
 
-    let testBoolean = Math.random() > .5;
+    let randomBoolean = Math.random() > .5;
 
-    if(testBoolean) resolve('Hello!');
+    if(randomBoolean) resolve('Hello!');
     else reject('Whoops!');
 
   });
