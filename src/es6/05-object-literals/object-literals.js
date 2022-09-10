@@ -8,4 +8,4 @@ function newUser(uId, user, age, country) {
   }
 }
 
-console.log(newUser(6, 'kboss', 22, 'PE'));
+console.log(newUser(6, 'kboss', 22, 'PE')); // { user: 'kboss', age: 22, country: 'PE', id: 6 }
