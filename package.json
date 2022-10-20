@@ -13,6 +13,7 @@
   "keywords": [],
   "author": "Manuel Cabos <cabos.apolaya@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/CabosManuel/ecmascript/issues"
   },
