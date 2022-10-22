@@ -4,3 +4,5 @@ const countries = {
   ES: 'Spain',
   JP: 'Japan'
 };
+
+console.log(Object.values(countries));
